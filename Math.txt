@@ -1,0 +1,9 @@
+1.There are only 10 perfect cube between 1 and 1000.
+2.If a number is odd its cube will be odd, if a number is even its cube will be even.
+3.In trapezium there is only one pair of parallel side.
+4.The value of sin A or cos A never exceeds 1, whereas the value of sec A or cosec A is
+    always greater than or equal to 1.
+5.Diagonal of a square- root over a X side
+6. 1L=1000mL
+7.1mL=1cm cube
+8.

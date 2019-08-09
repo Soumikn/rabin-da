@@ -1,0 +1,11 @@
+1.The speed of light is 300,000,000 m/sec.
+2.Unit of sound is decibels.
+3.Gravitational force exerted on a mass, called weight.
+4.SONAR technology developed to track enemy submarines in World War II .
+5.Your weight will not change when you are in a moving elevator.
+6.The unit of radioactivity is Becquerel.(Bq)
+7.Quantum theory of light is given by Plank.
+8.Technology developed to track enemy submarines in World War II was SONAR.
+9.Infra-red rays are Electromagnetic Rays.
+10.Weight will not change when a person is in a moving elevator.
+11.Beaufort Scale is used to measure Wind Velocity.
