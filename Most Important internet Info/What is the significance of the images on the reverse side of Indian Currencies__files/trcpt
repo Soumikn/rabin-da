@@ -1,0 +1,342 @@
+!function(){
+    "use strict";
+
+    function initialize(newtwork_code){
+        try{
+            window.tercept.newtwork_code = newtwork_code;
+            fetch_segments();
+        }catch(err){}
+    }
+
+    function gettcptTarget(adunit, key_type){
+        if(key_type==2) return generate_tcpt2_target();
+        else if(key_type==3) return get_targeting_value(adunit);
+        else if(key_type=='s') return getTargetingSplitValue(adunit);
+        window.tercept.returnSplitTarget[adunit] = "";
+        var final_floor = generate_tcpt_target(adunit);
+        logGetTcpt(adunit, "", final_floor, "");
+        return final_floor;
+    }
+
+    function setTargeting(adslot){
+        if(!adslot) return;
+        var adunit_id = adslot.getAdUnitPath() || "";
+        var target_div = adslot.getSlotElementId() || "";
+        var adunit_url = adunit_id + "/" + target_div;
+        adslot.setTargeting('tcpt', [gettcptTarget(adunit_url, 1)]);
+        adslot.setTargeting('tcpt2', [gettcptTarget(adunit_url, 2)]);
+        adslot.setTargeting('tcpt3', [gettcptTarget(adunit_url, 3)]);
+        adslot.setTargeting('tcpts', [gettcptTarget(adunit_url, 's')]);
+    }
+
+    function generate_tcpt_target(adunit){
+        var return_obj = {};
+        var t_proportion = get_split_proportion(adunit) || 0;
+        if(Math.random()*100<t_proportion){
+            return_obj = getTargetValue(adunit) || {"floor": "NF", "seg": "NF", "split": "TERCEPT"};
+        }else{
+            return_obj = {"floor": "CUSTOMER", "seg": "CUSTOMER", "split": "CUSTOMER"};
+        }
+        window.tercept.returnTarget[adunit] = return_obj.floor;
+        window.tercept.returnSplitTarget[adunit] = return_obj.split;
+        return return_obj.seg;
+    }
+
+    function getTargetValue(adunit){
+        var return_val = "";
+        try{
+            var tmp_im_seg = get_first_impression_floor(adunit);
+            var tmp_obj = ((!tmp_im_seg) && JSON.parse(window.localStorage.getItem(adunit))) || {};
+            if(tmp_im_seg){
+                return_val = tmp_im_seg;
+            } else if (tmp_obj && tmp_obj.tcpt_v){
+                return_val = {"floor": tmp_obj.tcpt_v, "seg":tmp_obj.tcpt_segment, "split": "TERCEPT"};
+            } else {
+                return_val = getNFFloor(adunit, "SEGNF");
+            }
+        } catch(err) {
+            return_val = {"floor": "NFE", "seg": "NFE", "split": "TERCEPT"};
+        }
+		return return_val;
+    }
+
+    function getNFFloor(adunit, segment_key){
+        var final_floor = "";
+        var selected_floor = "";
+        try{
+            var tmp_nf_segments = (window.tercept.nf_floors && window.tercept.nf_floors[adunit] && window.tercept.nf_floors[adunit][segment_key]) || {};
+            var tmp_floors = Object.keys(tmp_nf_segments) || [];
+            var tmp_weights = [];
+            for(var t_key in tmp_floors){
+                var t_key_val = tmp_floors[t_key];
+                tmp_weights.push(tmp_nf_segments[t_key_val]);
+            }
+            var floor_sum = tmp_weights.reduce(function(a,b){ return Number(a) + Number(b) },0);
+            var random_no = Math.random()*floor_sum;
+            var currSum = 0;
+            selected_floor = tmp_floors[0];
+            for (var idx=0; idx<tmp_floors.length; idx++) {
+                currSum += Number(tmp_weights[idx]);
+                if (currSum >= random_no){
+                    selected_floor = tmp_floors[idx];
+                    break;
+                }
+            }
+            final_floor = (selected_floor)?( {"floor": selected_floor, "seg": segment_key+"_"+selected_floor, "split": "TERCEPT"} ):("");
+        }catch(err){}
+        return final_floor;
+    }
+
+    function generate_tcpt2_target(){
+        var final_floor = "";
+        try{
+            final_floor = getUserName();
+        }catch(err){}
+    return final_floor;
+    }
+
+    function get_targeting_value(adunit){
+        var r_val = "";
+        try{
+            var r_val = window.tercept.returnTarget[adunit] || "";
+            window.tercept.returnTarget[adunit] = "";
+        }catch(err){}
+        return r_val;
+    }
+
+    function get_split_proportion(adunit){
+        try{
+            var t_proportion = window.tercept.split[adunit] || 0;
+        }catch(err){}
+        return t_proportion;
+    }
+
+    function getTargetingSplitValue(adunit){
+        var r_val = "";
+        try{
+            var r_val = window.tercept.returnSplitTarget[adunit] || "";
+            window.tercept.returnSplitTarget[adunit] = "";
+        }catch(err){}
+        return r_val;
+    }
+
+    function fetch_segments(){
+        var u_id = getUserName();
+        var seg_exp_time = Number(read_localstorage('tcpt_lsf')) || 0;
+        if((new Date().getTime() - window.tercept.s_time - seg_exp_time) < (15*60*1000)) return false;
+        var segment_url = "https://serve.tercept.com/segments?n_c="+window.tercept.newtwork_code+"&u_id="+u_id;
+        try {
+            var req = new XMLHttpRequest;
+            req.onreadystatechange = function () {
+                if (req.readyState === XMLHttpRequest.DONE && 200 === req.status) {
+                    var r = tryParseJson(req.responseText);
+                    if(typeof r == 'object'){
+                        saveSegments(r);
+                    }
+                }
+            };
+            req.open("POST", segment_url, !0);
+            req.withCredentials = true;
+            req.send(null);
+        } catch (a) {
+            return
+        }
+    }
+
+    function logGetTcpt(slot_id, key_no, value, sizes){
+        try {
+            return false;
+            var u_id = getUserName();
+            var geo_val = "-";
+            var is_localstorage_active = false;
+            var imp_id = "-";
+            try{
+                is_localstorage_active = (window.localStorage.getItem('trcpt_u'))?(true):(false);
+            }catch(err){}
+            var seg_v = value.split('_')[0] || '-';
+            var floor_value = value;
+            key_no = "tcpt"+(key_no || "");
+            var net_info = get_network_info();
+            if(Math.random()*100<100){
+                var url = "https://serve.tercept.com/klogs?u_id="+u_id+"&s_id="+slot_id+"&key="+key_no+"&v="+floor_value+"&g_val="+geo_val+
+                        "&s_v="+seg_v+"&ver="+window.tercept.version+"&loc_is="+is_localstorage_active+"&imp_id="+imp_id+
+                        "&d_link="+net_info.d_link+"&d_link_max="+net_info.d_link_max+"&conn_type="+net_info.conn_type+"&eff_type="+net_info.eff_type+"&conn_rtt="+net_info.conn_rtt+"&conn_s_d="+net_info.conn_s_d;
+                var req = new XMLHttpRequest;
+                req.open("POST", url, !0);
+                req.send(null);
+            }
+        } catch (err) {}
+    }
+
+    function get_network_info(){
+        var result = {"d_link": "-", "d_link_max": "-", "conn_type": "-", "eff_type": "-", "conn_rtt": "-", "conn_s_d": "-"};
+        try{
+            var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+            result = {
+                "d_link": connection.downlink || "-",
+                "d_link_max": connection.downlinkMax || "-",
+                "conn_type": connection.type || "-",
+                "eff_type": connection.effectiveType || "-",
+                "conn_rtt": connection.rtt || "-",
+                "conn_s_d": connection.saveData || "-"
+            };
+        }catch(err){}
+        return result;
+    }
+
+    function saveSegments(response){
+        var tmp_i=0;
+        try{
+            for(tmp_i in response){
+                var tmp_obj = response[tmp_i] || {};
+                write_to_localstorage(tmp_obj.key, JSON.stringify(tmp_obj.value));
+            }
+            write_to_localstorage("tcpt_lsf", (new Date().getTime()-window.tercept.s_time));
+        }catch(err){}
+    }
+
+    function get_first_impression_floor(adunit){
+        var final_result = "";
+        var check_first_impression_rval = check_first_impression(adunit)
+        try{
+            if(check_first_impression_rval){
+                if(check_first_impression_rval == "new_user") {
+                    final_result = get_FIFloor(adunit, "SEGCBH_NU") || "";
+                } else {
+                    final_result = get_FIFloor(adunit, "SEGCBH") || "";
+                }
+            }
+            if(window.tercept.fi_floor && window.tercept.fi_floor[adunit]){
+                set_time_stamp(adunit);
+            }
+        }catch(err){}
+        return final_result;
+    }
+
+    function getUserName(){
+        var tmp_u_id;
+        try{
+            if(window.localStorage.getItem("trcpt_u")){
+                tmp_u_id = window.localStorage.getItem("trcpt_u");
+            }else{
+                tmp_u_id = Math.random();
+                window.localStorage.setItem("trcpt_u",tmp_u_id);
+                window.localStorage.setItem("trcpt_u_exp",new Date().getTime());
+            }
+        }catch(e){
+            tmp_u_id = Math.random();
+        }
+        return tmp_u_id.toString();
+    }
+
+    function check_first_impression(adunit)
+    {
+        var return_value = false;
+        var cur_time = new Date().getTime()-window.tercept.s_time;
+        var prev_time = get_time_stamp(adunit) || 0;
+        var fi_time = (window.tercept.fi_times && window.tercept.fi_times[adunit]) || 1;
+
+        if((cur_time - prev_time) > fi_time*60*60*1000)
+        {
+            if(prev_time == 0)
+            {
+                return_value = "new_user";
+            } else{
+                return_value = true;
+            }
+        }
+        return return_value;
+    }
+
+    function get_FIFloor(adunit, segment_key){
+        var final_floor = "";
+        var selected_floor = "";
+        try{
+            var tmp_first_i_segments = (window.tercept.fi_floor && window.tercept.fi_floor[adunit] && window.tercept.fi_floor[adunit][segment_key]) || {};
+            var tmp_floors = Object.keys(tmp_first_i_segments) || [];
+            var tmp_weights = [];
+            for(var t_key in tmp_floors){
+                var t_key_val = tmp_floors[t_key];
+                tmp_weights.push(tmp_first_i_segments[t_key_val]);
+            }
+            var floor_sum = tmp_weights.reduce(function(a,b){ return Number(a) + Number(b) },0);
+            var random_no = Math.random()*floor_sum;
+            var currSum = 0;
+            selected_floor = tmp_floors[0];
+            for (var idx=0; idx<tmp_floors.length; idx++) {
+                currSum += Number(tmp_weights[idx]);
+                if (currSum >= random_no){
+                    selected_floor = tmp_floors[idx];
+                    break;
+                }
+            }
+            final_floor = (selected_floor)?( {"floor": selected_floor, "seg": segment_key+"_"+selected_floor, "split": "TERCEPT"} ):("");
+        }catch(err){
+            logErros(adunit, "get_FIlFoor", err);
+        }
+        return final_floor;
+    }
+
+    function tryParseJson(a) {
+        try {
+            return JSON.parse(a)
+        } catch (a) {
+            return false;
+        }
+    }
+
+    function get_time_stamp(adunit){
+        try{
+            var tmp_key = "tcpt_ts_" + adunit;
+            return read_localstorage(tmp_key) || "";
+        }catch(err){}
+    }
+
+    function set_time_stamp(adunit){
+        try{
+            var tmp_key = "tcpt_ts_" + adunit;
+            var tmp_time = new Date().getTime()-window.tercept.s_time;
+            write_to_localstorage(tmp_key, tmp_time);
+        }catch(err){}
+    }
+
+    function write_to_localstorage(key, value){
+        try{
+            window.localStorage.setItem(key, value);
+        }catch(err){}
+    }
+
+    function read_localstorage(key){
+        var result;
+        try{
+            result = window.localStorage.getItem(key);
+        }catch(err){
+            result = false;
+        }
+        return result;
+    }
+
+    setInterval(fetch_segments, 15*60*1000);
+
+    window.tercept = {
+        "init": initialize,
+        "newtwork_code": "",
+        "gettcptTarget": gettcptTarget,
+        "setTargeting": setTargeting,
+        "changetcptTarget": changetcptTarget,
+        "returnTarget": {},
+        "returnSplitTarget": {},
+        "version": 'v1',
+        "s_time": 1546281000000,
+        "h_b_config": {},
+        "fi_times": {"/13276288/Jagran/Desktop/home/homepage/top_300x250/hp_top_300x250":2},
+        "fi_floor": {"/13276288/Jagran/Desktop/home/homepage/bottom_300x250/hp_bottom_300x250":{"SEGCBH":{"a2b4":10,"a2b6":40,"a2b10":30,"a2b15":10,"a2b20":10},"SEGCBH_NU":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":10,"a2b30":10}},"/13276288/Jagran/Desktop/home/homepage/bottom_728x90/hp_bottom_728x90":{"SEGCBH":{"a2b4":10,"a2b6":40,"a2b10":30,"a2b15":10,"a2b20":10},"SEGCBH_NU":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":10,"a2b30":10}},"/13276288/Jagran/Desktop/home/homepage/bottom2_300x250/hp_bottom_2_300x250":{"SEGCBH":{"a2b4":10,"a2b6":40,"a2b10":30,"a2b15":10,"a2b20":10},"SEGCBH_NU":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":10,"a2b30":10}},"/13276288/Jagran/Desktop/home/homepage/bottom2_728x90/hp_bottom2_728x90":{"SEGCBH":{"a2b4":10,"a2b6":40,"a2b10":30,"a2b15":10,"a2b20":10},"SEGCBH_NU":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":10,"a2b30":10}},"/13276288/Jagran/Desktop/home/homepage/medium_300x250/hp_medium_300x250":{"SEGCBH":{"a2b4":10,"a2b10":35,"a2b15":20,"a5b20":10,"a5b25":25},"SEGCBH_NU":{"a2b4":10,"a2b10":30,"a2b15":20,"a2b20":20,"a2b30":20}},"/13276288/Jagran/Desktop/home/homepage/medium_728x90/hp_medium_728x90":{"SEGCBH":{"a2b4":10,"a2b10":35,"a2b15":20,"a5b20":10,"a5b25":25},"SEGCBH_NU":{"a2b4":10,"a2b10":30,"a2b15":20,"a2b20":20,"a2b30":20}},"/13276288/Jagran/Desktop/home/homepage/top_300x250/hp_top_300x250":{"SEGCBH":{"a2b4":10,"a5b5":0,"a2b10":25,"a5b10":25,"a5b15":25,"a5b20":25},"SEGCBH_NU":{"a2b4":10,"a2b10":20,"a2b15":20,"a2b20":20,"a2b30":20,"a5b15":10}},"/13276288/Josh/Desktop/Articles/Detail/ATF_1/ATF_1":{},"/13276288/Josh/Desktop/Articles/Detail/ATF_2/ATF_2":{},"/13276288/Josh/Desktop/Articles/Detail/ATF_3/ATF_3":{},"/13276288/Josh/Desktop/Articles/Detail/ATF_4/ATF_4":{},"/13276288/Josh/Desktop/Articles/Detail/Gutter_LHS/Gutter_LHS":{"SEGCBH":{"a5b5":10,"a5b10":10,"a5b15":15,"a5b20":15,"a5b30":20,"a5b40":20,"a5b50":10}},"/13276288/Josh/Desktop/Articles/Detail/Gutter_RHS":{},"/13276288/Josh/Desktop/Articles/Detail/Header_1/Header_1":{"SEGCBH":{"a2b4":0,"a3b5":10,"a5b5":10,"a5b10":10,"a5b15":10,"a5b20":20,"a5b25":20,"a5b30":10,"a5b40":10,"a5b50":10},"SEGCBH_NU":{"a2b4":0,"a3b5":10,"a2b10":20,"a2b15":20,"a2b20":20,"a2b30":20,"a5b15":10}},"/13276288/Josh/lite/Articles/Detail/atf_320x50_1/top_300x250":{"SEGCBH":{"a2b4":10,"a5b5":0,"a5b10":0,"a5b15":10,"a5b20":10,"a5b25":20,"a5b30":40,"a5b35":0},"SEGCBH_NU":{"a2b4":10,"a2b10":20,"a2b15":20,"a2b20":20,"a2b30":20,"a5b15":10}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_1/bottom_300x250":{"SEGCBH":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b30":20,"a5b40":20}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_2/bottom_300x250_2":{},"/13276288/Josh/lite/Articles/Detail/btf_300x250_3/bottom_300x250_3":{},"/13276288/Josh/lite/Articles/Detail/btf_300x250_4/bottom_300x250_4":{},"/13276288/Josh/lite/Articles/Detail/btf_300x250_5/bottom_300x250_5":{}},
+        "split": {"/13276288/Josh/lite/Articles/Detail/btf_300x250_2/bottom_300x250_2":40,"/13276288/Josh/lite/Articles/Detail/atf_320x50_1/top_300x250":10,"/13276288/Josh/Desktop/Articles/Detail/Gutter_RHS":40,"/13276288/Josh/Desktop/Articles/Detail/ATF_4/ATF_4":40,"/13276288/Josh/Desktop/Articles/Detail/ATF_2/ATF_2":40,"/13276288/Jagran/Desktop/home/homepage/top_300x250/hp_top_300x250":40,"/13276288/Jagran/Desktop/home/homepage/medium_300x250/hp_medium_300x250":40,"/13276288/Josh/lite/Articles/Detail/btf_300x250_5/bottom_300x250_5":40,"/13276288/Jagran/Desktop/home/homepage/bottom2_300x250/hp_bottom_2_300x250":40,"/13276288/Josh/lite/Articles/Detail/btf_300x250_3/bottom_300x250_3":40,"/13276288/Jagran/Desktop/home/homepage/bottom_300x250/hp_bottom_300x250":40,"/13276288/Josh/lite/Articles/Detail/btf_300x250_1/bottom_300x250":40,"/13276288/Josh/Desktop/Articles/Detail/Header_1/Header_1":10,"/13276288/Josh/Desktop/Articles/Detail/Gutter_LHS/Gutter_LHS":40,"/13276288/Josh/Desktop/Articles/Detail/ATF_3/ATF_3":40,"/13276288/Josh/Desktop/Articles/Detail/ATF_1/ATF_1":40,"/13276288/Jagran/Desktop/home/homepage/medium_728x90/hp_medium_728x90":40,"/13276288/Jagran/Desktop/home/homepage/bottom2_728x90/hp_bottom2_728x90":40,"/13276288/Josh/lite/Articles/Detail/btf_300x250_4/bottom_300x250_4":40,"/13276288/Jagran/Desktop/home/homepage/bottom_728x90/hp_bottom_728x90":40},
+        "nf_floors": {"/13276288/Jagran/Desktop/home/homepage/bottom_300x250/hp_bottom_300x250":{"SEGNF":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":20}},"/13276288/Jagran/Desktop/home/homepage/bottom_728x90/hp_bottom_728x90":{"SEGNF":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":20}},"/13276288/Jagran/Desktop/home/homepage/bottom2_300x250/hp_bottom_2_300x250":{"SEGNF":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":20}},"/13276288/Jagran/Desktop/home/homepage/bottom2_728x90/hp_bottom2_728x90":{"SEGNF":{"a2b4":10,"a2b6":20,"a2b10":30,"a2b15":20,"a2b20":20}},"/13276288/Jagran/Desktop/home/homepage/medium_300x250/hp_medium_300x250":{"SEGNF":{"a2b4":10,"a5b10":10,"a5b15":10,"a5b20":10,"a5b25":10,"a5b35":60,"a5b50":10}},"/13276288/Jagran/Desktop/home/homepage/medium_728x90/hp_medium_728x90":{"SEGNF":{"a2b4":10,"a5b10":10,"a5b15":10,"a5b20":10,"a5b25":10,"a5b35":60,"a5b50":10}},"/13276288/Jagran/Desktop/home/homepage/top_300x250/hp_top_300x250":{"SEGNF":{"a2b4":10,"a5b10":10,"a5b15":10,"a5b20":10,"a5b25":10,"a5b35":60,"a5b50":10}},"/13276288/Josh/Desktop/Articles/Detail/ATF_1/ATF_1":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/Desktop/Articles/Detail/ATF_2/ATF_2":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/Desktop/Articles/Detail/ATF_3/ATF_3":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/Desktop/Articles/Detail/ATF_4/ATF_4":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/Desktop/Articles/Detail/Gutter_LHS/Gutter_LHS":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/Desktop/Articles/Detail/Gutter_RHS":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/Desktop/Articles/Detail/Header_1/Header_1":{"SEGNF":{"a2b4":0,"a3b5":10,"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/lite/Articles/Detail/atf_320x50_1/top_300x250":{"SEGNF":{"a2b4":10,"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_1/bottom_300x250":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_2/bottom_300x250_2":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_3/bottom_300x250_3":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_4/bottom_300x250_4":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}},"/13276288/Josh/lite/Articles/Detail/btf_300x250_5/bottom_300x250_5":{"SEGNF":{"a5b5":10,"a5b10":10,"a5b15":20,"a5b20":20,"a5b25":20,"a5b30":20}}}
+    };
+
+    function changetcptTarget(){
+        try{}
+        catch(err){}
+    }
+}()

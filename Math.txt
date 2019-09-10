@@ -6,4 +6,5 @@
 5.Diagonal of a square- root over a X side
 6. 1L=1000mL
 7.1mL=1cm cube
-8.
+8.Acute angle= 0 to 90 degree.
+9.Internal angle of a polygon = (n-2) x 180/n

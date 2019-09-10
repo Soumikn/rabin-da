@@ -1,0 +1,64 @@
+1.India - New Delhi-Rupee  - Ramnath Kovind-Narendra Modi - 
+2.Nepal-Kathmandu-Nepalese rupee-Bidhya Devi Bhandari-Khadga Prasad Oli
+3.Pakistan-Islamabad-Pakistani rupee-Arif Alvi-Imran Khan
+4.Afganistan-kabul-Afgani-Mohammad Ashraf Ghani-
+5.Maldives-Male-Rufiya-Ibrahim Mohamed Solih
+6.Bangladesh-Dhaka-Taka-Abdul Hamid-Sheikh Hasina
+7.Malaysia-Kuala Lumpur-Ringgit
+8.Bhutan-Timphu-Nagultrm- King Jigme Khesar Namgyel Wangchuck-Lotay Tshering
+9.Japan-Tokyo-Yen- Shinzo Abe
+10.China-Beijing-Renminbi -Xi Jinping
+11.Sri Lanka-Colombo-Sri Lanka rupee-Maithripala Sirisena-Ranil Wickremesinghe
+12.Iraq-Baghdad-Iraqi Dinar
+13.Macedonia-Skopje-Denar
+14.United Arab Emirates-Abu Dhabi-U.A.E. dirham
+15.France-Paris-Euro (formerly French franc)--President Emmanuel Macron
+16.Germany-Berlin-Euro
+17.Ireland-Dublin-Euro
+18.Greece-Athens-Euro
+19.Ireland-Dublin-Euro
+20.Finland-Helsinki-Euro
+21.Italy-Rome-Euro 
+22.Belgium- Brussels-Euro--Charles Michel 
+23.Netherlands-Amsterdam; The Hague (seat of government)-Euro
+24.Iran-Tehran-Rial
+25.Saudi Arabia-Riyadh-Riyal
+26.Qatar-Doha-Qatari Riyal
+27.Russia-Moscow-Ruble-Vladimir Putin
+28.Israel-Jerusalem-Shekel
+29.Venezuela-Caracas-Bolivar
+30.United Kingdom-London-Pound sterling-Queen- Elizabeth II-Theresa May
+31.Switzerland-Bern-Swiss franc
+32.Seychelles-Victoria-Seychelles rupee
+33.Thailand-Bangkok-baht
+34.Syria-Damascus-Syrian pound
+35.South Africa-Cape Town-Rand, New currency is ECO-Cyril Ramaphosa
+36.Cambodia-Phnom penh-Riel 
+37.Singapore-Singapore-Singapore dollar
+38.Seychelles-Victoria-Seychelles rupee
+39.Uzbekistan-Tashkent-Uzbekistani sum
+40.Bulgaria-sofia-Lev 
+41.Turkey-Ankara-Turkish lira
+42.Papua New Guinea-Port Moresby-Kina
+43.Australia -Canberra- Doller--ScottMorrison 
+44.Korea, South-Seoul-Won 
+45.Korea, North-Pyongyang-Won
+46.Kyrgyzstan-Bishkek-Som
+47.Brazil-Brasilia-Real 
+48.Argentina-Buenos Aires-Peso
+49.Canada-Ottawa-Canadian dollar
+50.Denmark-Copenhagen-Krone
+51.Egypt-Cairo-Egyptian pound
+52.Denmark-Copenhagen-Krone 
+53.Ethiopia-Addis Ababa-Birr 
+54.Fiji-Suva-Fiji dollar
+55.Indonesia-Jakarta-Rupiah
+56.Czech Republic-Prague-Koruna 
+57.Turkmenistan-Ashgabat-Manat
+58.Myanmar-Naypyidaw or Nay Pyi Taw-Kyat 
+59.Vietnam-Hanoi-Dong
+60.Egypt-Cairo-Egyptian pound 
+61.Colombia-Bogota-Colombian Peso 
+62.Cuba-Havana-Cuban Peso
+63.Cyprus-Nicosia
+64.  Newzeland--Prime Minister Jacinda Ardern
