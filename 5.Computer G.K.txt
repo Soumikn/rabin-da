@@ -1,0 +1,38 @@
+1.World first super computer is cray-1.
+2.Indias first super computer is PRAM 8000.
+3.Inventor of binary number Gottfried Wilhelm Leibniz.
+4.Google was incorporated in 1998.
+5.Ray tomlinson credited with the invention of email.
+6.Light pen is a input device.
+7.Scanner is a input device.
+8.IBM 701, IBM 702, IBM 650 are examples of First generation computer.
+9.Turtle is the name given to the cursor for the computer language ‘LOGO”
+10.Vacume tube was used as circuitry for first generation of computers.
+11.Firewall is a computer, appliance, or router that sits between the trusted and untrusted systems.
+12.USA has recently (in 2018) unveiled the world’s most powerful super computer that has the capacity to complete over 200,000 trillion 
+     calculations per second, the super computer is named as SUMMIT.
+13.The computers which are connected onto a network will have IP address that is unique for every computer.
+14.Bits per second unit for measuring the throughput of a computer.
+15.World first search engine-Archie
+16.Bitcoin  founder Sansatoshinakamoto
+17.Blockchain invented by Sansatoshinakamoto
+18.Documentation manual documents assists the user in utilizing a software program.
+19.F2 is the function key has to be clicked and put on hold for entering the BIOS setup menu after turning on the computer system.
+20.Personal Digital Assistence types of computers use the handheld operating system.
+21.Externel Bus connects the different external devices, peripherals and I/O ports to the rest of the computer...
+22.Who invented the WWW World wide web- Tim Buchheit
+23.India's first computer was set up in ISI kolkata.
+24.Computer does't have the capability of understanding.
+25.Integrated chip is made up of silicon.
+26.India's super computer name is param 2000.
+27.Fist Search Engine Invented by Alan Emtage.
+
+
+
+
+
+
+
+
+
+
