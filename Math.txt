@@ -8,3 +8,4 @@
 7.1mL=1cm cube
 8.Acute angle= 0 to 90 degree.
 9.Internal angle of a polygon = (n-2) x 180/n
+10. 1mm= 0.1 cm
