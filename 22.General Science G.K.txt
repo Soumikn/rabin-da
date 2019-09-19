@@ -11,9 +11,9 @@
    Measure sound under water- Hydrophone
    Rate of flow of liquid- Venturimeter
    Measure Atmoshpheric humidity- Hygrometer
-   Measure electric current of low magnitude- Galvanometer
-   Measure the intensity of sound- Audiometer
-   Measure magnetic flux- Fluxmeter
+   Measure electric current of low magnitude- Galvanometer  SI unit	ampere  
+   Measure the intensity of sound- Audiometer    db
+   Measure magnetic flux- Fluxmeter SI unit of magnetic flux is the weber
    Power of electric circuit- Wattmeter
    Measure the curvature of surface- Spherometer
    Intensity of earthquakes- Seismograpgh or Richter Scale
@@ -43,7 +43,7 @@
 13.Heaviest metal - Osmium, naturally-Plutonium.
 14.Evolution Theory was given by Charled Darwin.
 15.Desalination technology?   To convert salt water into freshwater, the most prevalent technology in the world is reverse osmosis (RO). 
-    A plant pumps in salty or brackish water, fiÅlters separate the salt from the water, and the salty water is returned to the sea. Fresh water is sent to households.
+    A plant pumps in salty or brackish water, fi¬Ålters separate the salt from the water, and the salty water is returned to the sea. Fresh water is sent to households.
    The city of Chennai already uses desalinated water.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 16.Plant Parts - Shoot system (plant upper part), Root System (Plant Lower part)
@@ -53,12 +53,12 @@
 19.Animal which eat plant is called herbivores. Animal which eat animal are carnivores. Animal which eat both animal and plant are omnivores.
 20.The major nutrients in our food are named carbohydrates, proteins, fats, vitamins and minerals. In addition, food contains dietary fibres and water which are also
      needed by our body.
-21.Fats and carbohydrates are also called ëenergy giving foodsí .
+21.Fats and carbohydrates are also called ‚Äòenergy giving foods‚Äô .
 22.Carbohydrates mainly provide energy to our body. Fats also give us energy. In fact, fats give much more energy as compared to the same amount of carbohydrates.
 23.Kinds of Vitamin  are Vitamin A, Vitamin C, Vitamin D, Vitamin E and K. There is also a group of vitamins called Vitamin B-complex.
 24.Vitamin A keeps our skin and eyes healthy, Vitamin C helps body to fight against many diseases.
 25.Vitamin D helps our body to use calcium for bones and teeth.Our body also prepares Vitamin D in the presence of sunlight.
-26.Proteins are often called ëbody building foodsí.
+26.Proteins are often called ‚Äòbody building foods‚Äô.
 27.Besides these nutrients, our body needs dietary fibres and water. Dietary fibres are also known as roughage. Roughage is mainly provided by plant 
     products in our foods. Whole grains and pulses, potatoes, fresh fruits and vegetables are main sources of roughage. 
 28.Vitamin C gets easily destroyed by heat during cooking.
@@ -98,19 +98,22 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 51.The joint where our neck joins the head is a pivotal joint. It allows us to bend our head forward and backward and turn the head to our right or left.
 52.The elbow has a hinge joint that allows only a back and forth movement.
-53. The bones cannot move at these joints. Such joints are called fixed joints.There is a joint between the upper jaw and the rest of the head which is a fixed joint.
+53. The bones cannot move at these joints. Such joints are called fixed joints.There is a joint between the upper jaw and the rest of the head which is a fixed joint.
+
 54.The human skeleton is composed of around 305 bones at birth. The number of bones in the skeleton changes with age. It decreases to 206 bones by adulthood 
      after some bones have fused together.
 55.We see that the ribs are curiously bent. They join the chest bone and the backbone together to form a box. This is called the rib cage. 
 56.There are 12 ribs on each side of chest.  Pelvic bones, it basically enclose the portion of your body below the stomach. This is the part you sit on.
 57.Backbone is made up of many small bones called vertebrae. Backbone consist of 33 vertebrae.
-58.There are some additional parts of the skeleton that are not as hard as the bones and which can be bent. These are called cartilage.
+58.There are some additional parts of the skeleton that are not as hard as the bones and which can be bent. These are called cartilage.
+
 59.An earthworm does not have bones. It has muscles which help to extend and shorten the body.Under its body, it has a large number of tiny bristles (hair like
     structures) projecting out. The bristles are connected with muscles. The bristles help to get a good grip on the ground.
-60.The head and tail of the fish are smaller than the middle portion of the body ñ the body tapers at both ends. This body shape is called streamlined. Fish have slippery scales 
+60.The head and tail of the fish are smaller than the middle portion of the body ‚Äì the body tapers at both ends. This body shape is called streamlined. Fish have slippery scales 
      on their bodies. These scales protect the fish and also help in easy movement through water.Fish have flat fins and tails that help them to change directions and keep their body
       balance in water. Gills present in the fish help them to use oxygen dissolved in water.
-     Snails move with the help of a muscular foot.
+     Snails move with the help of a muscular foot.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 61.Camels have long legs which help to keep their bodies away from the heat of the sand.They excrete small amount of urine, their dung is dry and they do not sweat. 
      Since camels lose very little water from their bodies, they can live for many days without water The plants and animals that live on land are said to live in terrestrial habitats.
@@ -120,7 +123,7 @@
       oxygen. They give out carbon dioxide to the air.We learnt that in sunlight, plants use carbon dioxide to produce food and give out oxygen. The amount of oxygen
       released in the process of food preparation by plants is much more than the oxygen they use in respiration. Respiration in plants takes place day and night.
 65.Changes in our surroundings that makes us respond to them, are called stimuli.
-66.some plants like Mimosa, commonly known as ëtouch-me-notí, leaves close or fold when someone touches them. 
+66.some plants like Mimosa, commonly known as ‚Äòtouch-me-not‚Äô, leaves close or fold when someone touches them. 
 67.The process of getting rid of wastes by organisms is known as excretion.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 68.Each metre (m) is divided into 100 equal divisions, called centimetre (cm). Each centimetre has ten equal divisions, called millimetre (mm).
@@ -141,7 +144,7 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 80.Rocks which behave as magnet are natural magnet.Such rocks were given the name magnetite.Magnetite contains iron.
 81.The substances having the property of attracting iron are now known as magnets. 
-82.The materials which get attracted towards a magnet are magnetic ñ for example, iron, nickel or cobalt. The materials which are not attracted towards a magnet are non-magnetic.
+82.The materials which get attracted towards a magnet are magnetic ‚Äì for example, iron, nickel or cobalt. The materials which are not attracted towards a magnet are non-magnetic.
 83.All magnets have two poles whatever their shape may be. Usually, north (N) and south (S) poles are marked on the magnets.
 84.A freely suspended magnet always aligns in N-S direction.
 85.Opposite poles of two magnets attract each other whereas similar poles repel one another.
@@ -152,8 +155,8 @@
 89.Air in motion is called wind.Air occupies space.
 90.Safai karamcharis collect the garbage in trucks and take it to a low lying open area, called a landfill.
 91.In some cities and towns, municipalities provide separate dustbins for collecting two kinds of garbage. Usually one is coloured blue and the other green. 
-     The blue bin is for materials that can be used again ó such as plastics, metals and glass. The green bins are for collecting kitchen and other plant or animal wastes.
-92.Earthworms are called farmerís friend.
+     The blue bin is for materials that can be used again ‚Äî such as plastics, metals and glass. The green bins are for collecting kitchen and other plant or animal wastes.
+92.Earthworms are called farmer‚Äôs friend.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 93.The Prime Minister of India launched the Swachh Bharat Mission (SBM).The aim of this mission is to create an open defecation-free India by 2 October 2019.
 94.Converting plant and animal waste including that from kitchen, into manure, is called composting.
@@ -163,10 +166,11 @@
 97.Animals and most other organisms take in ready made food prepared by the plants. They are called heterotrophs.
 98.Leaves are the food factories of plants. The synthesis of food in plants occurs in leaves.
 99. Bodies of living organisms are made of tiny units called cells.
-100.The cell is enclosed by a thin outer boundary, called the cell membrane. Most cells have a distinct, centrally located spherical structure called the nucleus
+100.The cell is enclosed by a thin outer boundary, called the cell membrane.
+ Most cells have a distinct, centrally located spherical structure called the nucleus
        The nucleus is surrounded by a jelly-like substance called cytoplasm.
 101. Water and minerals present in the soil are absorbed by the roots and transported to the leaves. Carbon dioxide from air is taken in through the tiny pores present on the
-          surface of the leaves. These pores are surrounded by ëguard cellsí. Such pores are called stomata.
+          surface of the leaves. These pores are surrounded by ‚Äòguard cells‚Äô. Such pores are called stomata.
 102.The leaves have a green pigment called  chlorophyll. It helps leaves to capture the energy of the sunlight. This energy is used to synthesise (prepare)
        food from carbon dioxide and water. Since the synthesis of food occurs in the presence of sunlight, it is called photosynthesis.
 103. So we find that chlorophyll, sunlight, carbon dioxide and water are necessary to carry out the process of photosynthesis.
@@ -191,7 +195,8 @@
 113.The process of taking food into the body is called ingestion.
 114. The windpipe carries air from the nostrils to the lungs.
 115.The stomach is a thick-walled bag. Its shape is like a flattened U and it is the widest part of the alimentary canal.It receives food from the food pipe at one
-       end and opens into the small intestine at the other.
+       end and opens into the small intestine at the other.
+
 116.The inner lining of the stomach secretes mucous, hydrochloric acid and digestive juices.
 117.The small intestine is highly coiled and is about 7.5 metres long.
 118.The liver is a reddish brown gland situated in the upper part of the abdomen on the right side. It is the largest gland in the body. It secretes bile
@@ -211,8 +216,8 @@
 128.Silk comes from silkworms and wool is obtained from sheep, goat and yak. Hence silk and wool are animal fibres.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 129.Temperature is measured by a device called thermometer.The thermometer that measures our body temperature is called a clinical thermometer.
-130.The normal temperature of human body is 37∞C. The temperature of human body normally does not go below 35∞ C or above 42∞ C. That is the reason that this 
-       thermometer has the range 35∞ C to 42∞ C. The range of a laboratory thermometer is generally from ñ10∞C to 110∞C.
+130.The normal temperature of human body is 37¬∞C. The temperature of human body normally does not go below 35¬∞ C or above 42¬∞ C. That is the reason that this 
+       thermometer has the range 35¬∞ C to 42¬∞ C. The range of a laboratory thermometer is generally from ‚Äì10¬∞C to 110¬∞C.
 131. Heat flows from a hotter object to a colder object. 
 132.The process by which heat is transferred from the hotter end to the colder end of an object is known as conduction. When water is heated, the water near the flame gets
        hot. Hot water rises up. The cold water from the sides moves down towards the source of heat. This water also gets hot and rises and water from the sides moves down.
@@ -227,7 +232,8 @@
 139. Substances like these which are bitter in taste and feel soapy on touching are known as bases. The nature of such substances is said to be basic.
 140.Special type of substances are used to test whether a substance is acidic or basic. These substances are known as indicators. The indicators change their
         colour when added to a solution containing an acidic or a basic substance. 
-141.Acetic acid Vinegar,Formic acid Antís sting,Citric acid-(oranges,lemons),Lactic acid -Curd,Tartaric acid-(Tamarind, grapes, unripe mangoes, etc).
+141.Acetic acid Vinegar
+,Formic acid Ant‚Äôs sting,Citric acid-(oranges,lemons),Lactic acid -Curd,Tartaric acid-(Tamarind, grapes, unripe mangoes, etc).
 142.When litmus When added to an acidic solution, it turns red and when added to a basic solution, it turns blue.
 143.The solutions which do not change the colour of either red or blue litmus are known as neutral solutions. These substances are neither acidic nor basic.
 144.Acid turn blue litmus to red and base turn red litmus to blue.
@@ -236,7 +242,8 @@
 146.Each cell in our body contains an acid, the deoxyribonucleic acid or DNA.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 147.If you leave a piece of iron in the open for some time, it acquires a film of brownish substance. This substance is called rust and the process is called rusting.
-148.When carbon dioxide is passed through lime water, calcium carbonate is formed, which makes lime water milky.
+148.When carbon dioxide is passed through lime water, calcium carbonate is formed, which makes lime water milky
+.
 149.For rusting, the presence of both oxygen and water (or water vapour) is essential.
 150.This process of depositing a layer of zinc on iron is called galvanisation.
 151.Stainless steel is made by mixing iron with carbon and metals like chromium, nickel and manganese. It does not rust.
@@ -247,7 +254,7 @@
        warmth and rain, this region supports wide variety of plants and animals.
 155.Also, it is important to remember that on heating the air expands and occupies more space. When the same thing occupies more space, it becomes lighter.
       The warm air is, therefore, lighter than the cold air. That is the reason that the smoke goes up.
-156.A cyclone is known by different names in different parts of the world. It is called a ëhurricaneí in the American continent. In Philippines and Japan it is called a ëtyphooní.
+156.A cyclone is known by different names in different parts of the world. It is called a ‚Äòhurricane‚Äô in the American continent. In Philippines and Japan it is called a ‚Äòtyphoon‚Äô.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 157.Largest gland- Liver 
 158.Soil is formed by the breaking down of rocks by the action of wind, water and climate.This process is called weathering. Percolation rate (mL/min).
@@ -281,7 +288,7 @@
 178.The waste which is present in the blood has to be removed from the body. How can this be done? A mechanism to filter the blood is required. This is done by
       the blood capillaries in the kidneys. Arteries divide into smaller vessels. On reaching the tissues, they divide further into extremely thin tubes called capillaries. 
       The capillaries join up to form veins which empty into the heart.
-179.Sometimes a personÌs kidneys may stop working due to infection or injury. As a result of kidney failure, waste products start accumulating in the blood. Such persons 
+179.Sometimes a person√≠s kidneys may stop working due to infection or injury. As a result of kidney failure, waste products start accumulating in the blood. Such persons 
         cannot survive unless their blood is filtered periodically through an artificial kidney. This process is called dialysis.The major excretory product in humans is urea.
 180.Plants have pipe-like vessels to transport water and nutrients from the soil. The vessels are made of special cells, forming the vascular tissue. A tissue is a group of
       cells that perform specialised function in an organism. The vascular tissue for the transport of water and nutrients in the plant is called the xylem.
@@ -297,7 +304,8 @@
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 188.Flowers are the reproductive parts of a plant. The stamens are the male reproductive part and the pistil is the female reproductive part.
 189.The flowers which contain either only the pistil or only the stamens are called unisexual flowers. The flowers which contain both stamens and pistil
-        are called bisexual flowers. Corn, papaya and cucumber produce unisexual flowers, whereas mustard, rose and petunia have bisexual flowers.
+        are called bisexual flowers. Corn, papaya and cucumber produce unisexual flowers, whereas mustard, rose and petunia have bisexual flowers.
+
 190. In sexual reproduction in flower a male and a female gamete fuse(add together) to form a zygote, process is called fertilization.The zygote develops into an embryo.
         There are several methods of asexual reproduction such as fragmentation, budding, spore formation and vegetative propagation.Sexual reproduction involves the fusion 
         of male and female gametes.
@@ -320,7 +328,8 @@
 200. A fuse is thus a safety device which prevents damages to electrical circuits and possible fires.
 201.These days Miniature circuit breakers (MCBs) are increasingly being used in place of fuses.
 202.When an electric current flows through a wire, it behaves like a magnet.This is the magnetic effect of the electric current.
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 203.An image formed by a plane mirror is erect and of the same size as the object.
 204.If the reflecting surface of a spherical mirror is concave, it is called a concave mirror. If the reflecting surface is convex, then it is a convex mirror.
       Concave mirror are converging mirror. Convex mirror are diverging mirror.
@@ -380,7 +389,8 @@
        suddenly chilled and stored. By doing so, it prevents the growth of microbes. This process was discovered by Louis Pasteur. It is called pasteurisation.
 230.Streptomycin, tetracycline and erythromycin are some of the commonly known antibiotics which are made from fungi and bacteria.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-231. Polymers occur in nature also. Cotton, for example, is a polymer called cellulose. Cellulose is made up of a large number of glucose units.
+231. Polymers occur in nature also. Cotton, for example, is a polymer called cellulose. Cellulose is made up of a large number of glucose units.
+
 232.PET (polyethylene terephthalate) is a very familiar form of polyester. It is used for making bottles, utensils, films, wires and many other useful products.
        Terylene is a popular polyester. 
 233.Such plastic which gets deformed easily on heating and can be bent easily are known as thermoplastics. Polythene and PVC are some of the examples of thermoplastics.
@@ -389,7 +399,8 @@
       bakelite and melamine. Bakelite is a poor conductor of heat and electricity. It is used for making electrical switches, handles of various utensils, etc. Melamine is a versatile
       material. It resists fire and can tolerate heat better than other plastics. It is used for making floor tiles, kitchenware and fabrics which resist fire.
 235.Teflon is a special plastic on which oil and water do not stick. It is used for non-stick coating on cookwares.it is interesting to know that the
-       uniforms of firemen have coating of melamine plastic to make them flame resistant.
+       uniforms of firemen have coating of melamine plastic to make them flame resistant.
+
 236.A material which gets decomposed through natural processes, such as action by bacteria, is called biodegradable. A material which is not easily decomposed by 
       natural processes is termed non-biodegradable.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -418,7 +429,7 @@
 252.Petrol and diesel are obtained from a natural resource called petroleum.
 253.Petroleum was formed from organisms living in the sea. As these organisms died, their bodies settled at the bottom of the sea and got covered with layers of sand and clay. 
       Over millions of years, absence of air, high temperature and high pressure.
-254.petroleum is also called ëblack goldí.
+254.petroleum is also called ‚Äòblack gold‚Äô.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 255.The lowest temperature at which a substance catches fire is called its ignition temperature.
 251.The substances which have very low ignition temperature and can easily catch fire with a flame are called inflammable substances. Examples of inflammable 
@@ -464,8 +475,8 @@
 284.Milk secreting glands or mammary glands develop inside the breasts.
 285. Menstruation occurs once in about 28 to 30 days. The first menstrual flow begins at puberty and is termed menarche. At 45 to 50 years
        of age, the menstrual cycle stops. Stoppage of menstruation is termed menopause.
-286. ëgoitreí, a disease of the thyroid gland. It is because thyroid gland was not producing the hormone thyroxine.
-287. If some one suffering from  ëdiabetesí because his pancreas was not producing the hormone insulin in sufficient quantities.
+286. ‚Äògoitre‚Äô, a disease of the thyroid gland. It is because thyroid gland was not producing the hormone thyroxine.
+287. If some one suffering from  ‚Äòdiabetes‚Äô because his pancreas was not producing the hormone insulin in sufficient quantities.
 288.Adrenal glands secrete hormones which maintain the correct salt balance in the blood. Adrenals also produce the hormone
        adrenalin. It helps the body to adjust to stress when one is very angry, embarrassed or worried.
 289.Thyroid and adrenals secrete their hormones when they receive orders from the pituitary through its hormones. Pituitary also secretes growth hormone
@@ -519,57 +530,60 @@
 330.Like charges repel and unlike charges attract each other.
 331.The electrical charges produced by rubbing are called static charges.
 332.When charges move, they constitute an electric current.
-333.Earthquakes tend to occur at the boundaries of earthís plates. These boundaries are known as fault zones.
+333.Earthquakes tend to occur at the boundaries of earth‚Äôs plates. These boundaries are known as fault zones.
 334.The light ray, which strikes any surface, is called the incident ray. The ray that comes back from the surface after reflection is known as the reflected ray.
-335. A line making an angle of 90∫ to the line representing the mirror at the point where the incident ray strikes the mirror. This line is known as the normal to the 
+335. A line making an angle of 90¬∫ to the line representing the mirror at the point where the incident ray strikes the mirror. This line is known as the normal to the 
         reflecting surface at that point.
 336.The angle between the normal and incident ray is called the angle of incidence (angle i). The angle between the normal and the reflected ray is known as the angle of
        reflection (angle r).
 337. The angle of incidence is always equal to the angle of reflection. This is one of the laws of reflection.
 338. The incident ray, the normal at the point of incidence and the reflected ray all lie in the same plane. This is another law of reflection.
-339.Image formed by a mirror the left of the object appears on the right and the right appears on the left. This is known as lateral inversion.
+339.Image formed by a mirror the left of the object appears on the right and the right appears on the left. This is known as lateral inversion.
+
 340.Nearly everything you see around is seen due to reflected light.
 341.The objects which shine in the light of other objects are called illuminated objects. The objects which emit their own light are known as luminous objects.
 342.Splitting of light into its colours is known as dispersion of light.
-343. There are two kinds of cells in our eyeñ (i) cones, which are sensitive to bright light and (ii) rods, which are sensitive to dim light
+343. There are two kinds of cells in our eye‚Äì (i) cones, which are sensitive to bright light and (ii) rods, which are sensitive to dim light
 344.Cones sense colour.
 345.Louis Braille developed a system for visually challenged persons and published it in 1821.
 346.Two mirrors inclined to each other give multiple images.
 347.Parts of the eye are cornea, iris, pupil, lens, retina and optic nerve.
 348.The study of celestial objects and associated phenomena is called astronomy.
 349.The day on which the whole disc of the moon is visible is known as the full moon day.Thereafter, every night the size of the bright part of the moon appears to 
-     become thinner and thinner. On the fifteenth day the moon is not visible. This day is known as the ënew moon dayí. The next day, only a small portion of the moon 
+     become thinner and thinner. On the fifteenth day the moon is not visible. This day is known as the ‚Äònew moon day‚Äô. The next day, only a small portion of the moon 
      appears in the sky. This is known as the crescent moon.Then again the moon grows larger every day. On the fifteenth day once again we get a full view of the moon.
 350.Remember that the moon revolves around the Earth. The Earth along with the moon, revolves around the Sun.
-351.There is actually a star, the pole star, which is situated in the direction of the earthís axis. It does not appear to move.
+351.There is actually a star, the pole star, which is situated in the direction of the earth‚Äôs axis. It does not appear to move.
 352.The star Sirius, which is the brightest star in the sky, is located close to Orion.
 353.A planet has a definite path in which it revolves around the Sun. This path is called an orbit.
 354.When the shadow of the Earth falls on the moon, it causes lunar eclipse,When the shadow of the moon falls on the Earth, it causes solar eclipse.
-355.Venus is earthís nearest planetary neighbour. It is the brightest planet in the night sky.
+355.Venus is earth‚Äôs nearest planetary neighbour. It is the brightest planet in the night sky.
 356.Venus has no moon or satellite of its own. Rotation of Venus on its axis is somewhat unusual. It rotates from east to west while the Earth rotates from west to east.
 357.Chandrayaan-1 was India's first lunar probe. India's first lunar mission finds water on moon.It was launched by the Indian Space Research Organisation in October 2008, 
        and operated until August 2009. The mission included a lunar orbiter and an impactor. It was launched  from Satish Dhawan Space Centre, Sriharikota, by the 
         PSLV C-11 on 22 October 2008. The spacecraft was orbiting around the Moon at a height of 100 km from the lunar surface for chemical, mineralogical and 
         photo-geologic mapping of the Moon.
-376. Mangalyaan - Indian Space Research Organisation (ISRO) launched Indiaís first Mars orbiter mission ñ Mangalyaan, on November 5, 2013. It was successfully
+376. Mangalyaan - Indian Space Research Organisation (ISRO) launched India‚Äôs first Mars orbiter mission ‚Äì Mangalyaan, on November 5, 2013. It was successfully
         placed into an orbit of Mars on September 24, 2014. With this India became the first country in the world to do so in its first attempt.
-377. Earth Equator- An imaginary line around the Earth forming the great†circle that is equidistant from the north and south poles.
+377. Earth Equator- An imaginary line around the Earth forming the great¬†circle that is equidistant from the north and south poles.
 378.The plane of the equator is called the equatorial plane.
 379.The plane in which the Earth revolves round the Sun is called the orbital plane of the Earth.
-380.These two planes are inclined to each other at an angle of 23.5∫. This means that the axis of the Earth is inclined to its orbital plane at an angle of 66.5∫.
+380.These two planes are inclined to each other at an angle of 23.5¬∫. This means that the axis of the Earth is inclined to its orbital plane at an angle of 66.5¬∫.
+
 381. Saturn which appears yellowish in colour.One interesting thing about Saturn is that it is the least dense among all the planets. Its density is less than that of water.
 382. Venus, Uranus also rotates from east to west.
 383.The phases of the moon occur because we can see only that part of the moon which reflects the light of the Sun towards us.
 384.A body revolving around another body is called a satellite.
 385.chlorofluorocarbons (CFCs) which are used in refrigerators, air conditioners and aerosol sprays. CFCs damage the ozone layer of the atmosphere.
-386.The trapping of radiations by the earthís atmosphere is similar. That is why it is called the greenhouse effect.
-387.CO2 traps heat and does not allow it to escape into space. As a result, the average temperature of the earthís atmosphere is gradually increasing. This is called
+386.The trapping of radiations by the earth‚Äôs atmosphere is similar. That is why it is called the greenhouse effect.
+387.CO2 traps heat and does not allow it to escape into space. As a result, the average temperature of the earth‚Äôs atmosphere is gradually increasing. This is called
       global warming.
 388.Many countries have reached an agreement to reduce the emission of greenhouse gases. The Kyoto Protocol is one such agreement.
 389.An ambitious plan to save the river, called the Ganga Action Plan was launched in 1985.
 390.Government of India has launched a new initiative known as National Mission for Clean Ganga (NMCG) in 2016.
 391.Chlorination is a commonly used chemical method for purifying water. It is done by adding chlorine tablets or bleaching powder to the water.
-392.Water which is purified and fit for drinking is known as potable water. 
+392.Water which is purified and fit for drinking is known as potable water. 
+
 393.Particles of matter are continuously moving, that is, they possess what we call the kinetic energy. As the temperature rises, particles move faster. So, we can say that with
       increase in temperature the kinetic energy of the particles also increases.
 394. Particles of matter intermix on their own with each other. They do so by getting into the spaces between the particles. This intermixing of particles of two different types
@@ -581,7 +595,8 @@
 398. Kelvin is the SI unit of temperature, 0 degree C =273.15 K. For convenience, we take 0 degree C = 273 K.
 399.Solid carbon dioxide is also known as dry ice.
 400.A change of state directly from solid to gas without changing into liquid state is called sublimation and the direct change of gas to solid without changing into 
-      liquid is called deposition.
+      liquid is called deposition.
+
 401. Atmosphere (atm) is a unit of measuring pressure exerted by a gas.
 402. The atmospheric pressure at sea level is 1 atmosphere.
 403.We know that evaporation is a surface phenomenon. If the surface area is increased, the rate of evaporation increases. For example, while putting
@@ -590,20 +605,23 @@
 405. Bulb there is neon gas and inside a fluorescent tube there is helium gas.
 406.Inside tube or bulb gas gets ionised, that is, gets charged when electrical energy flows through it. This charging up creates a plasma glowing inside the tube or bulb.
 407. The Sun and the stars glow because of the presence of plasma in them. The plasma is created in stars because of very high temperature.
-408.The forces of attraction between the particles are maximum in solids, intermediate in liquids and minimum in gases. 
+408.The forces of attraction between the particles are maximum in solids, intermediate in liquids and minimum in gases.
+ 
 409.The arrangement of particles is most ordered in the case of solids, in the case of liquids layers of particles can slip and slide over each other while for gases, 
        there is no order, particles just move about randomly.
 410.Alloys: Alloys are mixtures of two or more metals or a metal and a non-metal and cannot be separated into their components by physical methods. But
        still, an alloy is considered as a mixture because it shows the properties of its constituents and can have variable composition. For example, brass is a
         mixture of approximately 30% zinc and 70% copper.
 411.A solution of sugar in water is a solid in liquid solution. In this solution, sugar is the solute and water is the solvent.
-412.A solution of iodine in alcohol known as ëtincture of iodineí, has iodine (solid) as the solute and alcohol (liquid) as the solvent.
+412.A solution of iodine in alcohol known as ‚Äòtincture of iodine‚Äô, has iodine (solid) as the solute and alcohol (liquid) as the solvent.
 413.There are various ways of expressing the concentration of a solution, but here we will learn only three methods.
-       (i) Mass by mass percentage of a solution--  Mass of solute/Mass of solution  x 100
+       (i) Mass by mass percentage of a solution
+--  Mass of solute/Mass of solution  x 100
        (ii) Mass by volume percentage of a solution--  Mass of solute/Volume of solution  x 100
        (iii) Volume by volume percentage of a solution-- Volume of solute/Volume of solution  x 100
 414.Tyndall effect can also be observed when a fine beam of light enters a room through a small hole. This happens due to the scattering of light
-       by the particles of dust and smoke in the air.
+       by the particles of dust and smoke in the air.
+
 415.This process of separation of components of a mixture is known as chromatography.
 416.The crystallisation method is used to purify solids. For example, the salt we get from sea water can have many impurities in it. To remove these impurities, the process of
        crystallisation is used. Crystallisation is a process that separates a pure solid in the form of its crystals from a solution. 
@@ -612,7 +630,7 @@
 419.In a compound such as water, the ratio of the mass of hydrogen to the mass of oxygen is always 1:8, whatever the source of water.
 420. In ammonia, nitrogen and hydrogen are always present in the ratio 14:3 by mass, whatever the method or the source from which it is obtained.
 421.These ratio led to the law of constant proportions which is also known as the law of definite proportions. This law was stated by Proust as
-      ìIn a chemical substance the elements are always present in definite proportions by massî.
+      ‚ÄúIn a chemical substance the elements are always present in definite proportions by mass‚Äù.
 422.Dalton was the first scientist to use the symbols for elements in a very specific sense.
 423.IUPAC (International Union of Pure and Applied Chemistry) is an international scientific organisation which approves names of elements, symbols and units.
 424.A molecule of oxygen consists of two atoms of oxygen and hence it is known as a diatomic molecule, O2 . If 3 atoms of oxygen unite into a molecule, instead
@@ -632,21 +650,22 @@
 437.Standard room temprature is 298 kelvin.
 438.Plants that have lost their capaity to produce seeds reprodice by Vegitative propagation.
 439.Atoms form molecules and ions. These molecules or ions aggregate in large numbers to form the matter that we can see, feel or touch.
-440.A negatively charged ion is called an ëanioní and the positively charged ion, a ëcationí.
+440.A negatively charged ion is called an ‚Äòanion‚Äô and the positively charged ion, a ‚Äòcation‚Äô.
 441.During a chemical reaction, the sum of the masses of the reactants and products remains unchanged. This is known as the Law of Conservation of Mass.
 442.Atoms and molecules are the fundamental building blocks of matter.
 443. E. Goldstein in 1886 discovered the presence of new radiations in a gas discharge and called them canal rays.
 444.J.J. Thomson was the first one to propose a model for the structure of an atom.
-445.E. Rutherford ,He was known as the ëFatherí of nuclear physics. He is famous for his work on radioactivity and the discovery of the nucleus of an atom with
+445.E. Rutherford ,He was known as the ‚ÄòFather‚Äô of nuclear physics. He is famous for his work on radioactivity and the discovery of the nucleus of an atom with
        the gold foil experiment. He got the Nobel prize in chemistry in 1908.
-446. The mass number is defined as the sum of the total number of protons and neutrons present in the nucleus of an atom. It is denoted by ëAí.
+446. The mass number is defined as the sum of the total number of protons and neutrons present in the nucleus of an atom. It is denoted by ‚ÄòA‚Äô.
 447.Atomic number is defined as the total number of protons present in the nucleus of an atom.
 448.Atoms of some elements have been identified, which have the same atomic number but different mass numbers. 
 449.Protons and neutrons are also called nucleons.
-450. Atoms of different elements with different atomic numbers, which have the same mass number, are known as isobars.
+450. Atoms of different elements with different atomic numbers, which have the same mass number, are known as isobars.
+
 451.J.J. Thomson proposed that electrons are embedded in a positive sphere.
 452.Elements are defined by the number of protons they possess.
-453.Plastids are present only in plant cells. There are two types of plastids ñ chromoplasts (coloured plastids) and leucoplasts (white or colourless plastids).
+453.Plastids are present only in plant cells. There are two types of plastids ‚Äì chromoplasts (coloured plastids) and leucoplasts (white or colourless plastids).
         Chromoplasts containing the pigment chlorophyll are known as chloroplasts. Chloroplasts are important for photosynthesis in plants. Chloroplasts also
         contain various yellow or orange pigments in addition to chlorophyll. Leucoplasts are primarily organelles in which materials such as starch, oils and protein
         granules are stored.The primary function of leucoplasts is storage.
@@ -675,19 +694,19 @@
 471.Muscles present in our limbs move when we want them to, and stop when we so decide. Such muscles are called voluntary muscles.
 472. The brain, spinal cord and nerves are all composed of the nervous tissue. The cells of this tissue are called nerve cells or neurons.
 473.The signal that passes along the nerve fibre is called a nerve impulse. Nerve impulses allow us to move our muscles when we want to.
-474.Plant tissues are of two main types ñ meristematic and permanent.
+474.Plant tissues are of two main types ‚Äì meristematic and permanent.
 475.Parenchyma, collenchyma and sclerenchyma are three types of simple tissues. Xylem and phloem are types of complex tissues.
 476.Striated, unstriated and cardiac are three types of muscle tissues.
 477.Nervous tissue is made of neurons that receive and conduct impulses.
 478.Charles Darwin first described this idea of evolution in 1859 in his book, The Origin of Species.
-479.The SI unit of speed is metre per second. This is represented by the symbol m sñ1 or m/s.
+479.The SI unit of speed is metre per second. This is represented by the symbol m s‚Äì1 or m/s.
 480.Average speed= Total distance travelled/ Total time taken.
 481.The rate of motion of an object can be more comprehensive if we specify its direction of motion along with its speed. The quantity that
        specifies both these aspects is called velocity. Velocity is the speed of an object moving in a definite direction.
 482.Speed and velocity have the same units, that is m/s.
 483. The SI unit of acceleration is m/ s pow 2.
 484.The motion of a freely falling body is an example of uniformly accelerated motion.
-485.The velocity of an object can be uniform or variable. It can be changed by changing the objectís speed, direction of motion or both.
+485.The velocity of an object can be uniform or variable. It can be changed by changing the object‚Äôs speed, direction of motion or both.
 486.If an object travels in a straight line and its velocity increases or decreases by equal amounts in equal intervals of time, then the acceleration of the object is said to be
        uniform. The motion of a freely falling body is an example of uniformly accelerated motion. 
 487.When an object moves in a circular path with uniform speed, its motion is called uniform circular motion.
@@ -726,8 +745,8 @@
 513.The antibiotic penicillin blocks the bacterial processes that build the cellwall.
 514.The motion of the moon around the earth is due to the centripetal force. The centripetal force is provided by the force of attraction of the earth.
 515. All objects in the universe attract each other. This force of attraction between objects is called the gravitational force.
-516.The value of G was found out by Henry Cavendish (1731 ñ 1810) by using a sensitive balance. The accepted value of G is 6.673 ◊ 10 pow ñ11 N m pow 2  kg pow ñ2.
-517.Weight of the object on the moon = (1/6) ◊ its weight on the earth.
+516.The value of G was found out by Henry Cavendish (1731 ‚Äì 1810) by using a sensitive balance. The accepted value of G is 6.673 √ó 10 pow ‚Äì11 N m pow 2  kg pow ‚Äì2.
+517.Weight of the object on the moon = (1/6) √ó its weight on the earth.
 518. Net force in a particular direction (thrust) and the force per unit area (pressure).
 519.SI unit of pressure is called pascal, denoted as Pa. Pressure= Thrust/area.
 520.The upward force exerted by the water on the bottle is known as upthrust or buoyant force. In fact, all objects experience a force of
@@ -735,14 +754,16 @@
 521. Objects of density less than that of a liquid float on the liquid. The objects of density greater than that of a liquid sink in the liquid.
 522.Unit of work is newton metre (N m) or joule (J).
 523.The unit of energy is, therefore, the same as that of work, that is, joule (J).
-524.Objects in motion possess energy. We call this energy kinetic energy. The kinetic energy of an object increases with its speed.
+524.Objects in motion possess energy. We call this energy kinetic energy. The kinetic energy of an object increases with its speed.
+
 525.You transfer energy when you stretch a rubber band. The energy transferred to the band is its potential energy.
 526.An object increases its energy when raised through a height. This is because work is done on it against gravity while it is being raised. The energy present in such an object
        is the gravitational potential energy.
-527.The sum of kinetic energy and potential energy of an object is its total mechanical energy.
+527.The sum of kinetic energy and potential energy of an object is its total mechanical energy.
+
 528.Power measures the speed of work done, that is, how fast or slow work is done. Power is defined as the rate of doing work or the rate of transfer of energy.
           Power = work/Time
-529.The unit of power is watt [in honour of James Watt (1736 ñ 1819)] having the symbol W.
+529.The unit of power is watt [in honour of James Watt (1736 ‚Äì 1819)] having the symbol W.
 530.Sound can not travel through vaccume. 
 531.If you streach a spring continiously.The regions where the coils become closer are called compressions (C) and the regions where the coils are further apart are called
        rarefactions (R).
@@ -760,20 +781,22 @@
 542. It is observed that some animals get disturbed before earthquakes. Earthquakes produce low-frequency infrasound before the main shock waves
        begin which possibly alert the animals.
 543.Frequencies higher than 20 kHz are called ultrasonic sound or ultrasound.
-544.Ultrasonic waves are made to reflect from various parts of the heart and form the image of the heart. This technique is called ëechocardiographyí.
+544.Ultrasonic waves are made to reflect from various parts of the heart and form the image of the heart. This technique is called ‚Äòechocardiography‚Äô.
 545.Ultrasound scanner is an instrument which uses ultrasonic waves for getting images of internal organs of the human body.
-546.A doctor may image the patientís organs such as the liver, gall bladder, uterus, kidney, etc. It helps the doctor to detect abnormalities, such as stones in the
+546.A doctor may image the patient‚Äôs organs such as the liver, gall bladder, uterus, kidney, etc. It helps the doctor to detect abnormalities, such as stones in the
        gall bladder and kidney or tumours in different organs. In this technique the ultrasonic waves travel through the tissues of the body and get
        reflected from a region where there is a change of tissue density. These waves are then converted into electrical signals that are used to generate images of the organ. These
-        images are then displayed on a monitor or printed on a film. This technique is called ëultrasonographyí.
+        images are then displayed on a monitor or printed on a film. This technique is called ‚Äòultrasonography‚Äô.
 547.SONAR stands for Sound Navigation And Ranging. Sonar is a device that uses ultrasonic waves to measure the distance, direction and speed of underwater objects.
 548.The speed of sound depends primarily on the nature and the temperature of the transmitting medium.
 549.The persistence of sound in an auditorium is the result of repeated reflections of sound and is called reverberation.
 550.The decomposition of vegetable matter into compost is also an example of an exothermic reaction.
 551.Calcium oxide is called lime or quick lime. (Cao) and Caco3 calcium carbonate is called Limestone.
 552. Single reactant breaks down to give simpler products. This is a decomposition reaction. Decomposition reactions require energy either in the form of heat, 
-        light or electricity for breaking down the reactants.
-553. When a decomposition reaction is carried out by heating, it is called thermal decomposition.
+        light or electricity for breaking down the reactants.
+
+553. When a decomposition reaction is carried out by heating, it is called thermal decomposition.
+
 554. Reactions in which energy is absorbed are known as endothermic reactions.
 555.Our body works within the pH range of 7.0 to 7.8.
 556.It is very interesting to note that our stomach produces hydrochloric acid. It helps in the digestion of food without harming the stomach. During indigestion the stomach 
@@ -834,7 +857,9 @@
 604.The rotting dead matter in the soil is called humus.
 605.Whenever you fall ill the doctor may give you some antibiotic tablets, capsules or injections such as of penicillin.
        Streptomycin, tetracycline and erythromycin are some of the commonly known antibiotics which are made from fungi and bacteria. 
-       Antibiotics, however, are not effective against cold and flu as these are caused by viruses.
+       Antibiotics, however, are not effective against cold and flu as these are caused by viruses.
+
+
 606. Certain bacteria and blue green algae present in the soil fix nitrogen from the atmosphere and convert it into compounds of nitrogen.
 607. In India, the Petroleum Conservation Research Association (PCRA) advises people how to save petrol/diesel while driving
 608.
